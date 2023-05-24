@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/file"
+        android:title="File">
+        <menu>
+            <item   android:id="@+id/f_new"
+        			android:title="New"/>
+             <item   android:id="@+id/f_open"
+        			android:title="Open"/>
+        </menu>
+    </item>
+       <item
+            android:id="@+id/edit"
+        	android:title="Edit">
+       <menu>
+            <item   android:id="@+id/e_cut"
+        			android:title="Cut"/>
+             <item   android:id="@+id/e_copy"
+        			android:title="copy"/>
+             <item   android:id="@+id/e_paste"
+        			android:title="Paste"/>
+        </menu>
+      	</item>
+
+</menu>
